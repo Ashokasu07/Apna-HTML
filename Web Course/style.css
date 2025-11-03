@@ -1,0 +1,69 @@
+#TestHeading {
+    color: #baa73b;
+    text-align: center;  /*Center or right or left align the heading text; two more options are: start (for normal language) or end (for Urdu language)*/
+    text-decoration: dotted line-through;  /*underline or overline or line-through the heading text*/
+}
+#Heading123 { /*id should be unique for each case for best result*/
+    background-color: #baa73b;
+    text-decoration: wavy underline;
+}
+#Heading1 { /* After #, we can give any id from html file*/
+    background-color: #17656996;
+    color: #18265545;
+    text-decoration: blink; /*makes the text blink*/
+}
+#HeadingPara {
+    color: rgb(255 70 70 / 30%);
+}
+/*The examples for different way of adding colors are shown in different buttons*/
+.greenlabel {
+    color: #00ff00;
+}
+.button1 {
+    color: blue; /*Adding colors using the names*/
+    background-color: aqua;
+}
+.button2 {
+    color: #ff0000; /*Adding colors using Hexadecimal: first # then RRGGBB; each component ranges from 00 to ff*/
+    background-color: #0000ff;
+}
+.button3 {
+    color: #ffff00ff; /*Adding colors using Hexadecimal but the last two digits shows the transparency ranging from 00 to ff*/
+    background-color: #00ff0000;
+}
+.button4 {
+    color: rgb(200 150 255 / 70%); /*The last percentage shows the tranparency percentage*/
+    background-color: rgb(50, 240, 55); /*Adding color using RGB ranging from 0 to 255*/
+}
+.button5{
+    color: hsl(50 33% 25%); /* Adding color using HSL:hue,saturation,lightness; Fully opaque since default transparency is 0%. */
+    background-color: hsl(50 33% 25% / 75%); /* 75% opaque, i.e. 25% transparent */
+    color: hsl;
+}
+.myclass {
+    background-color: #0000ec;
+    color: #ff00ffff;
+}
+#myid {
+    background-color: #ff00ff;
+    color: #0000fcfc;
+}
+#one {
+    text-align: end; /*Justify the paragraph text; two more options of text alignment are: start (for normal language) or end (for Urdu language)*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Changes the font family of the paragraph text; priority order is from left to right*/
+}
+#Head1 {
+    font-weight: lighter; /*makes the font lighter*/
+}
+#Head2 {
+    font-weight: Norrmal; /*makes the font normal*/
+}
+#Head3 {
+    font-weight: 100; /*Font weight ranges from 100 to 900*/
+}
+#Head4 {
+    font-weight: 900; /*maximum font weight*/
+}
+#two {
+    font-family:'Courier New', Courier, monospace; /*Changes the font family; priority from left to right*/
+}

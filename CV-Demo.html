@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <pre>
+            <h1>My Resume</h1>
+        </pre>
+    </header>
+    <main>
+        <section>
+            <b>Education:</b> M. Sc. in Industrial Engineering | B. Tech in Mechanical Engineering
+        </section>
+        <hr>
+        <section>
+            <b>Experience:</b> Shift Manager at Amazon | Master Thesis at Bosch | Internship at Bosch | Service Engineer at Tulsi Auto Group pvt. Ltd.
+        </section>
+        <hr>
+        <article>
+            <b>My Story:</b> This is how I am learning Web Development and to explore more about this, I took a course at Opencampus. This is a wonderful platform to learn things in the systematic way.
+        </article>
+        <hr>
+        <aside>
+            This aside tag is for the advertisement and these are not detected by google or other types of search engines. This means these are present in the page but not as the main content of the page.
+        </aside>
+        <a href="https://www.lotto-sh.de/home?gbn=8" target="_main">
+            <img 
+                src="/HelloFolder/Money.png" 
+                alt="Lotto"
+                height="100">
+        </a>
+        <hr>
+        <a href="https://www.arbeitsagentur.de/" target="_main">
+            <img 
+                src="/HelloFolder/Jack.png"
+                alt="Job"
+                width="150">
+        </a>
+        <div>
+            <p>Hello</p>
+            <p>Hi</p>
+            <p>Namaste</p>
+            <p>This is an example of div tag, which takes all the width available (also header & footer)</p>
+        </div>
+        <div>
+            <p>Bye!</p>
+            <p>Good BYE!!</p>
+            <p>Ciao!!!</p>
+        </div>
+        <span>Example:</span>
+        <div>Just to check one div between two span tags. If two span tags are together then thezt will adjsut in same line but if one div tag is present then it will move to different lines.</div>
+        <span>
+            This is an exmple for span tag, which takes only the space required unlike div tag. To check inspect the element.
+        </span>
+        <br>
+        List of the fruits are:
+        <ul>
+            <li>Apples
+                <ul>
+                    <li>Red Apples
+                        <ul>
+                            <li>Expensive</li>
+                            <li>Cheap</li>
+                        </ul>
+                    </li>
+                    <li>Green Apples</li>
+                </ul>
+            </li>
+            <li>Mangoes
+                <ul>
+                    <li>Yellow Mangoes</li>
+                    <li>Green Mangoes</li>
+                </ul>
+            </li>
+            <li>Banana
+                <ul>
+                    <li>Yellow Banana</li>
+                    <li>Black Banana</li>
+                </ul>
+            </li>
+        </ul>
+        List of Vegetables are:
+        <ol>
+            <li>Potatoes
+                <ol>
+                    <li>Bio Potatoes</li>
+                    <li>Local Potatoes</li>
+                </ol>
+            </li>
+            <li>Cauliflower</li>
+            <li>Cabbage</li>
+            <li>Ginger
+                <ol>
+                    <li>Bio Ginger</li>
+                    <li>Local Ginger</li>
+                </ol>
+            </li>
+        </ol>
+        <table>
+            <caption>
+                Money to receive
+            </caption>
+            <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>Balance</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1.</th>
+                    <th>Akshay</th>
+                    <td>Frankfurt</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">2.</th>
+                    <th rowspan="2">Aditya</th>
+                    <td>Hamburg</td>
+                    <td>$25</td>
+                </tr>
+                <tr>
+                    <td>Kiel</td>
+                    <td>$25</td>
+                </tr>
+                <tr>
+                    <th rowspan="3">3.</th>
+                    <th>Kanish</th>
+                    <td rowspan="3"> Berlinerstrasse</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <th>Deepali</th>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <th>Deeksha</th>
+                    <td>$100</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3">Total</th>
+                    <th>$450</th>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+        <form action="/action.php">
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="password">
+            <input type="button" value="Submit">
+            <br>
+            <input type="button" value="Enabled">
+            <input type="hidden">
+            <br>
+            <input type="radio" value="Germany" name="Address"> Germany
+            <input type="radio" value="Outside Germany" name="Address">Outside Germany
+            <br>
+            <fieldset> <!--fieldset provides the box to the form-->
+                <legend>Marital Status:</legend> <!--legend is the child of fieldset and provide the name for the box-->
+                <input type="radio" value="Single" name="Marital Status" id="Status1"> <!--radio type allows to choose only one option; value is for backend; with same name, one can choose only one option-->
+                <label for="Status1">Single</label>
+                <input type="radio" value="Married" name="Marital Status" id="Status2" checked/>
+                <label for="Status2">Married</label>
+                <label for="Status3">
+                    <input type="radio" value="Single Parent" name="Marital Status" id="Status3">Single Parent
+                </label>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>
+                    Skills To be Learned for Web Development:
+                </legend>
+                <div>
+                    <label for="skill1">
+                        <input type="checkbox" id="skill1" name="skills" value="python">Python <!--name makes group; id makes uniques number; value for backend processing-->
+                    </label>
+                </div>
+                <div>
+                    <label for="skill2">
+                        <input type="checkbox" id="skill2" name="skills" value="data science">Data Science
+                    </label>
+                </div>
+                <div>
+                    <label for="skill3">
+                        <input type="checkbox" id="skill3" name="skills" value="excel">Excel
+                    </label>
+                </div>
+                <div>
+                    <label for="skill4">
+                        <input type="checkbox" id="skill4" name="skills" value="html">HTML
+                    </label>
+                </div>
+                <div>
+                    <label for="skill5">
+                        <input type="checkbox" id="skill5" name="skills" value="css">CSS
+                    </label>
+                </div>
+                <div>
+                    <label for="skill6">
+                        <input type="checkbox" id="skill6" name="skills" value="js">Java Script
+                    </label>
+                </div>
+                <div>
+                    <label for="skill7">
+                        <input type="checkbox" id="skill7" name="skills" value="power bi"> Power BI
+                    </label>
+                </div>
+                <input type="text" id="skill100" name="skills" placeholder="Type here"><br>
+                <form>
+                    <fieldset>
+                        <legend>Please provide feedback:</legend>
+                        <div>
+                            <textarea name="feedback" id="msg101" placeholder="Please write something" rows="5" cols="120">
+                            </textarea> <!--textarea provides rows columns to write but [input type="text"] provides only one row to write and does not extend-->
+                        </div>
+                    </fieldset>
+                </form>
+            </fieldset>
+        </form>
+        <form action="/action.php">
+        <label for="state names">Choose a state:</label>
+            <select name="states" id="state names">
+                <option value="">--Select State--</option>
+                <option value="Baden-Württemberg">Baden-Württemberg</option>
+                <option value="Bavaria">Bavaria</option>
+                <option value="Berlin">Berlin</option>
+                <option value="Brandenburg">Brandenburg</option>
+                <option value="Bremen">Bremen</option>
+                <option value="Hamburg">Hamburg</option>
+                <option value="Hesse">Hesse</option>
+                <option value="Mecklenburg-West Pomerania">Mecklenburg-West Pomerania</option>
+                <option value="Lower Saxony">Lower Saxony</option>
+                <option value="North Rhine-Westphalia">North Rhine-Westphalia</option>
+                <option value="Rhineland-Palatinate">Rhineland-Palatinate</option>
+                <option value="Saarland">Saarland</option>
+                <option value="Saxony-Anhalt">Saxony-Anhalt</option>
+                <option value="Saxony">Saxony</option>
+                <option value="Schleswig-Holstein">Schleswig-Holstein</option>
+                <option value="Thuringia">Thuringia</option>
+            </select>
+        <input type="submit" value="submit">
+        </form>
+        <span>
+        Study Material:<br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=Bm86cDKMqBZ6YoJ2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!--iframe is used to display other website like youtube or wikipedia in our website but secured networks like google block this feature-->
+        </span>
+        <br>
+        <video src="/TestVideo.mp4" width="500" height="300">
+        </video>
+    </main>
+    <footer>
+        <h5>For details contact me via ashokasu07@gmail.com</h5>
+    </footer>
+
+</body>
+</html>
