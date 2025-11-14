@@ -2,6 +2,7 @@
     color: #baa73b;
     text-align: center;  /*Center or right or left align the heading text; two more options are: start (for normal language) or end (for Urdu language)*/
     text-decoration: dotted line-through;  /*underline or overline or line-through the heading text*/
+    text-transform: capitalize; /*Capitalizes the first letter of each word; other optiosn are: uppercase & lowercase*/
 }
 #Heading123 { /*id should be unique for each case for best result*/
     background-color: #baa73b;
@@ -66,4 +67,12 @@
 }
 #two {
     font-family:'Courier New', Courier, monospace; /*Changes the font family; priority from left to right*/
+}
+#three {
+    font-size: 40px; /*Changes the font size to 40 pixels*/
+    line-height: normal; /*Sets the line height to 10 pixels*/
+    text-transform: capitalize; /*Capitalizes the first letter of each word; other optiosn are: uppercase & lowercase*/   
+}
+#four {
+    font-size: 15px; /*Changes the font size to 15 pixels*/
 }
