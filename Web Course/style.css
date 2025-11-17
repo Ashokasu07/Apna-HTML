@@ -55,9 +55,19 @@
 }
 #Head1 {
     font-weight: lighter; /*makes the font lighter*/
+    width: 400px; /*Sets the width */
+    height: 80px; /*Sets the height*/
+    border-style: solid; /*Adds solid border to the element*/
+    border-style: dotted; /*Adds dotted border to the element*/
+    border-width: 2px; /*Sets the border width to 2 pixels*/
+    border-color: #ff0000; /*Sets the border color to red*/
+    text-align: center; /*Centers the text inside the element*/
 }
 #Head2 {
     font-weight: Norrmal; /*makes the font normal*/
+    width: 500px; /*Sets the width */
+    border: 2px dashed #00ff00; /*Sets the border width to 2 pixels, style to dashed & color to green in one line*/
+    border-radius: 9px; /*Rounds the corners of the border with a radius of 9 pixels; also in percentage(50% means full circle if it is a square)*/
 }
 #Head3 {
     font-weight: 100; /*Font weight ranges from 100 to 900*/
@@ -75,4 +85,6 @@
 }
 #four {
     font-size: 15px; /*Changes the font size to 15 pixels*/
+    height: auto; /*Sets the height of the element to automatically adjust based on its content*/
+    width: 1555px; /*Sets the width of the element to 50 pixels*/
 }
